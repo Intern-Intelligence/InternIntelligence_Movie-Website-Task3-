@@ -28,7 +28,7 @@ function makeimages(movies) {
        <div class="insert2">
            <div class="insert">
                <a href="${movie.show.officialSite || '#'}" target="_blank" class="rd1">
-                   <img src="${imageSrc}" alt="Poster">
+                   <img src="${imageSrc}" alt="Poster" loading="lazy">
                </a>
                <h2>${movie.show.name || "No Title Available"}</h2>
                <h3>${movie.show.premiered || "No Release Date"}</h3>
